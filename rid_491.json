@@ -1,0 +1,674 @@
+{
+  "roomId": 491,
+  "global_config": {
+    "statusCollector": {
+      "kafkaFreq": 30,
+      "apiFreq": 20
+    }
+  },
+  "device_config": [
+    {
+      "uid": "1",
+      "brand": "tuya",
+      "deviceType": "light",
+      "deviceName": "leftDeskLight",
+      "productID": "dijodvatrsuoo5aq",
+      "tuyaDeviceID": "ebc1756852cf07fc96rtet",
+      "code": "switch_1",
+      "pollingFreq": 20,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": false,
+      "defaultData": {},
+      "executeData": {
+        "off": {
+          "delay": 0
+        },
+        "on": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "2",
+      "brand": "tuya",
+      "deviceType": "light",
+      "deviceName": "rightDeskLight",
+      "pollingFreq": 20,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": false,
+      "productID": "dijodvatrsuoo5aq",
+      "tuyaDeviceID": "eb132d691873f06d41nmik",
+      "code": "switch_1",
+      "defaultData": {},
+      "executeData": {
+        "off": {
+          "delay": 0
+        },
+        "on": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "3",
+      "brand": "tuya",
+      "deviceType": "light",
+      "deviceName": "barLight",
+      "productID": "dudkhmjt",
+      "tuyaDeviceID": "eb333f65874c80047a0itj",
+      "code": "switch_1",
+      "pollingFreq": 24,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": false,
+      "defaultData": {},
+      "executeData": {
+        "off": {
+          "delay": 0
+        },
+        "on": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "4",
+      "brand": "tuya",
+      "deviceType": "light",
+      "deviceName": "bedroomLight",
+      "productID": "dudkhmjt",
+      "tuyaDeviceID": "ebec011bb701047f63odkj",
+      "code": "switch_1",
+      "pollingFreq": 24,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": false,
+      "defaultData": {},
+      "executeData": {
+        "off": {
+          "delay": 0
+        },
+        "on": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "5",
+      "brand": "tuya",
+      "deviceType": "light",
+      "deviceName": "toilet",
+      "productID": "dudkhmjt",
+      "tuyaDeviceID": "ebdf2c41ba1f6c3e49cwhs",
+      "code": "switch_1",
+      "pollingFreq": 24,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": false,
+      "defaultData": {},
+      "executeData": {
+        "off": {
+          "delay": 0
+        },
+        "on": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "6",
+      "brand": "tuya",
+      "deviceType": "curtain",
+      "deviceName": "curtain",
+      "productID": "xaabybja",
+      "tuyaDeviceID": "eb2d78e67bd59223aermcv",
+      "code": "switch_1",
+      "pollingFreq": 28,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": true,
+      "defaultData": {},
+      "executeData": {
+        "on": {
+          "delay": 0
+        },
+        "off": {
+          "delay": 0
+        },
+        "stop": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "8",
+      "brand": "tuya",
+      "deviceType": "light",
+      "deviceName": "reading",
+      "productID": "heutm4xy",
+      "tuyaDeviceID": "eb53ffe27e04c1c884vssc",
+      "code": "switch_2",
+      "pollingFreq": 32,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": true,
+      "defaultData": {},
+      "executeData": {
+        "off": {
+          "delay": 0
+        },
+        "on": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "9",
+      "brand": "tuya",
+      "deviceType": "light",
+      "deviceName": "night",
+      "productID": "heutm4xy",
+      "tuyaDeviceID": "eb53ffe27e04c1c884vssc",
+      "code": "switch_3",
+      "pollingFreq": 36,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": false,
+      "defaultData": {},
+      "executeData": {
+        "off": {
+          "delay": 0
+        },
+        "on": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "14",
+      "brand": "tuya",
+      "deviceType": "light",
+      "deviceName": "turnOffPowerPlug",
+      "productID": "dijodvatrsuoo5aq",
+      "tuyaDeviceID": "eb274e376ed10b79deuxjf",
+      "code": "switch_1",
+      "pollingFreq": 40,
+      "pollingRetryMax": 2,
+      "userCmdRetryMax": 3,
+      "syncToDB": true,
+      "defaultData": {},
+      "executeData": {
+        "off": {
+          "delay": 0
+        },
+        "on": {
+          "delay": 0
+        },
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "15",
+      "brand": "tuya",
+      "deviceType": "roomcard",
+      "deviceName": "roomcard",
+      "productID": "oianj1lg",
+      "tuyaDeviceID": "eb3063345935e057b6xtoa",
+      "pollingFreq": 4,
+      "pollingRetryMax": 3,
+      "userCmdRetryMax": 3,
+      "syncToDB": true,
+      "defaultData": {},
+      "executeData": {
+        "sync": {
+          "delay": 0
+        }
+      }
+    },
+    {
+      "uid": "16",
+      "brand": "musicPlayer",
+      "deviceType": "musicPlayer",
+      "deviceName": "musicPlayer",
+      "defaultData": {},
+      "executeData": {
+        "morning_cut": {
+          "url": "http://portal.aiello.ai:8021/APK/PushMusic/morning_cut.mp3",
+          "delay": 0,
+          "leftVolume": 1,
+          "rightVolume": 1
+        },
+        "evening_cut": {
+          "url": "http://portal.aiello.ai:8021/APK/PushMusic/evening_cut.mp3",
+          "delay": 0,
+          "leftVolume": 1,
+          "rightVolume": 1
+        },
+        "welcome_3": {
+          "url": "http://portal.aiello.ai:8021/APK/PushMusic/welcome_3.wav",
+          "delay": 1500,
+          "leftVolume": 0.4,
+          "rightVolume": 0.4
+        },
+        "welcome_words_tw": {
+          "url": "http://portal.aiello.ai:8021/APK/PushMusic/LakeshoreHotel/welcome_words_tw.mp3",
+          "delay": 0,
+          "leftVolume": 1,
+          "rightVolume": 1
+        }
+      }
+    }
+  ],
+  "unit_config": {
+    "good morning mode": [
+      {
+        "uid": "16",
+        "delay": 0,
+        "execute": "morning_cut"
+      },
+      {
+        "uid": "1",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "2",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "6",
+        "delay": 0,
+        "execute": "open"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "on"
+      }
+    ],
+    "good night mode": [
+      {
+        "uid": "16",
+        "delay": 0,
+        "execute": "evening_cut"
+      },
+      {
+        "uid": "1",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "2",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "6",
+        "delay": 0,
+        "execute": "close"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "off"
+      }
+    ],
+    "reading mode": [
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "off"
+      }
+    ],
+    "KYID": [
+      {
+        "uid": "16",
+        "delay": 0,
+        "execute": "welcome_3"
+      },
+      {
+        "uid": "16",
+        "delay": 0,
+        "execute": "welcome_words_tw"
+      },
+      {
+        "uid": "14",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "1",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "2",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "on"
+      }
+    ],
+    "CDO": [
+      {
+        "uid": "14",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "1",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "2",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "5",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "off"
+      }
+    ],
+    "room@light@on": [
+      {
+        "uid": "1",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "2",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "on"
+      }
+    ],
+    "room@light@off": [
+      {
+        "uid": "1",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "2",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "off"
+      }
+    ],
+    "toilet@light@on": [
+      {
+        "uid": "5",
+        "delay": 0,
+        "execute": "on"
+      }
+    ],
+    "toilet@light@off": [
+      {
+        "uid": "5",
+        "delay": 0,
+        "execute": "off"
+      }
+    ],
+    "@light@on": [
+      {
+        "uid": "1",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "2",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "5",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "on"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "on"
+      }
+    ],
+    "@light@off": [
+      {
+        "uid": "1",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "2",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "3",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "4",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "5",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "8",
+        "delay": 0,
+        "execute": "off"
+      },
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "off"
+      }
+    ],
+    "@curtain@on": [
+      {
+        "uid": "6",
+        "delay": 0,
+        "execute": "on"
+      }
+    ],
+    "@curtain@stop": [
+      {
+        "uid": "6",
+        "delay": 0,
+        "execute": "stop"
+      }
+    ],
+    "@curtain@off": [
+      {
+        "uid": "6",
+        "delay": 0,
+        "execute": "off"
+      }
+    ],
+    "@nightlight@on": [
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "on"
+      }
+    ],
+    "@nightlight@off": [
+      {
+        "uid": "9",
+        "delay": 0,
+        "execute": "off"
+      }
+    ]
+  }
+}
